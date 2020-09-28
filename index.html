@@ -3,6 +3,32 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <title>TheBridge</title>
+        <style>
+            .bridge{width: 100%;height: 30rem;}
+            p {font-size:20px}
+            h1 {
+                animation-name: message;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes message {
+                from {color: black;}
+                to {color: green;}
+            }
+
+            h2 {
+                animation-name: titles;
+                animation-duration: 3s;
+                animation-iteration-count: 1;
+            }
+
+            @keyframes titles {
+                from {font-size: 30px;}
+                to {font-size: 45px;}
+            }
+
+        </style>
     </head>
     <body style="background-color: rgb(199, 194, 194);">
         <div class="navbar">
@@ -11,21 +37,16 @@
             <a href="contact.html">Contact</a>
         </div>
         <div class="info">
-            <img class="bridge" src="bridge.jpg" width="100%" height="active">
-            <h1>Mission</h1>
+            <h1>Welcome to TheBrige</h1>
+            <img class="bridge" src="bridge.jpg">
+            <h2>Our Mission</h2>
             <p>We connect you to the resources that help you pass your computer sciences classes at Tufts University.</p>
             <h2>Background</h2>
-            <p>This platform was created in 2020 by a Tufts CS students. After everything moved to online, 
+            <p>This platform was created in 2020 by a Tufts CS students. After everything was moved to online, 
                 various professors adapted to the situation and introduced so many tools. After feeling overwhelmed, 
                 our founder organized various resources that he found helpful when he was taking various cs class. 
                 Therefore, he wanted to share them with Tufts community so that they don't have to go through the same
                 tough experience he had.</p>
-            <h2>Report</h2>
-            <p>85% of Tufts students who used this website, reported that our services help them find most of resources 
-                they need in order to get started with their courses. Sometimes it can be hard to keep up with all information
-                listed on course websites and other platforms they use to communicate with students. 
-                Therefore, that is why we started this platform to make the transtion smooth and fast for new students.</p>
-            
         </div>
     </body>
     <footer id="footer">&copy; TheBridge</footer>
